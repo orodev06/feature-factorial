@@ -4,4 +4,5 @@ def factorial(num):
     else:
         return num * factorial(num - 1)
 
-print(factorial(5))  # Ejemplo de uso
+num = int(input('Ingrese un nímero: '))
+print(F'El factorial del numero {num} es igual a {factorial(num)}')
